@@ -1,0 +1,7 @@
+.dashboard{
+    width: 100%;
+    display: flex;
+    margin-top: 60px;
+    background-color: white;
+    margin-left: 0px;
+}
