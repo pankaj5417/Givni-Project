@@ -16,11 +16,13 @@ export const Sidebar = () => {
       <ProSidebar className="sidebar" collapsedWidth="30px" width="270px" collapsed={menuCollapse}>
       <div className="closemenu" onClick={menuIconClick}>
                 {/* changing menu collapse icon on click */}
+                {/* <i class="fa fa-align-left" aria-hidden="true"></i> */}
+
               {menuCollapse ? (
-                <FiArrowRightCircle/>
+                 <FiArrowRightCircle/>
               ) : (
                 <FiArrowLeftCircle/>
-              )}
+               )} 
             </div>
         <Menu className="sidebarList">
           <MenuItem className="sidebarListItemFirst">
@@ -152,7 +154,7 @@ export const Sidebar = () => {
           </MenuItem>
         </Menu>
       </ProSidebar>
-      ;
+      
      
     </>
   );

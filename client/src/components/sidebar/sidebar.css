@@ -22,7 +22,10 @@
 ::-webkit-scrollbar-thumb {
   background-color: rgb(179, 179, 179);
 }
-
+/* .closemenu{
+  margin-top: -50px;
+  z-index: 99999;
+} */
 .sidebarWrapper {
   padding: 20px;
 }
